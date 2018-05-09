@@ -1,0 +1,2692 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  background-color: #fafafa;
+
+}
+
+
+.banner{
+  height: 8vh;
+  padding-top: 4vh;
+  position: relative;
+  z-index: 2;
+  background-color: #11192D;
+
+
+}
+/*codigo por marcela*/
+.menu_bar {
+  display:none;
+}
+h2{  display: inline-block;
+    font-size: 5vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #11192D;
+}
+
+section .nav-banner ul {
+  overflow:hidden;
+  list-style:none;
+}
+section .nav-banner ul li {
+  float:left;
+  padding: 1px 0px;
+}
+/*final codigo por marcela*/
+.banner-responsive{
+  display: none;
+  background-color: #11192D;
+
+
+}
+.nav-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: 4vh;
+  position: absolute;
+  top: 4vh;
+  left: 20%;
+}
+.nav-banner a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #11192D;
+  font-size: 2.5vh;
+  /*padding-left: 4%;*/
+  /*padding-right: 1%;*/
+  padding: 0% 3%;
+  border-left: 2px solid white;
+ /* margin-left: 4%;*/
+}
+.nav-banner a:hover {
+  color: gray;
+}
+.logo-banner{
+  width: 4%;
+  display: inline-block;
+  position: absolute;
+  top: -4%;
+  left: 10%;
+}
+.logo-banner img{
+  width: 95%;
+
+}
+#promocion-1{
+  display: block;
+}
+#promocion-2{
+  display: none;
+  padding: 2%;
+  background-color: rgba(158, 5, 48, 0.45);
+  text-align: center;
+}
+#promocion-2 h3{
+  text-align: center;
+}
+.descripcioneventos{
+  position: absolute;
+  background-color: #11192D;
+  width: 100%;
+  height: 45%;
+  bottom: 0%;
+  left: 0%;
+  margin: 0%;
+
+ }
+
+.descripcionlago{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17,25,45,0.65);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  margin: 0%;
+}
+
+.descripcionlago h3{
+  font-size: 4vh;
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  margin: 4%;
+  color-font: #565656;
+}
+.descripcionlago h4{
+  margin-top: 7vh;
+  margin: 0vh;
+  text-align: center;
+  font-size: 25px;
+  color-font:#FFF;
+
+}
+.descripcionlago p{
+  font-size: 2vh;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 12vh;
+  margin: 0px;
+}
+
+.descripcionlago p a {
+  font-size: 10px;
+  color:white;
+}
+.descripcioncarreta{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17,25,45,0.65);
+  color: #fff;
+  opacity: 0.9;
+  transition: opacity .2s, visibility .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 13%;
+  margin: 0%;
+}
+
+.descripcioncarreta h3{
+  font-size: 4vh;
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  margin: 4%;
+  color-font: #565656;
+}
+.descripcioncarreta h4{
+  margin-top: 7vh;
+  margin: 0vh;
+  text-align: center;
+  font-size: 25px;
+  color-font:#FFF;
+
+}
+.descripcioncarreta p{
+  font-size: 2vh;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 12vh;
+  margin: 0px;
+}
+.descripcionjardines{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17,25,45,0.65);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 13%;
+  margin: 0%;
+}
+
+.descripcionjardines h3{
+  font-size: 4vh;
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  margin: 4%;
+  color-font: #565656;
+}
+.descripcionjardines h4{
+  margin-top: 7vh;
+  margin: 0vh;
+  text-align: center;
+  font-size: 25px;
+  color-font:#FFF;
+
+}
+.descripcionjardines p{
+  font-size: 2vh;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 12vh;
+  margin: 0px;
+}
+.columna-7 .descripcionjardines {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  top: 87%;
+  }
+
+.descripcionjardines p a {
+  font-size: 10px;
+  color:white;
+}
+.descripcionarco{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17,25,45,0.65);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 22%;
+  margin: 0%;
+}
+
+.descripcionarco h3{
+  font-size: 4vh;
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  margin: 4%;
+  color-font: #565656;
+}
+.descripcionarco h4{
+  margin-top: 7vh;
+  margin: 0vh;
+  text-align: center;
+  font-size: 25px;
+  color-font:#FFF;
+
+}
+.descripcionarco p{
+  font-size: 2vh;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 12vh;
+  margin: 0px;
+}
+.fila-51 .descripcionarco {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  top: 78%;
+  }
+
+.descripcionarco p a {
+  font-size: 10px;
+  color:white;
+}
+.descripcioneventos p {
+  font-size: 12vh;
+  margin: 0px;
+}
+
+.descripcioneventos p a {
+  font-size: 10px;
+  color:white;
+}
+.descripcioneventos11{
+  position: absolute;
+  background-color: #11192D;
+  width: 100%;
+  height: 50%;
+  bottom: 0%;
+  left: 0%;
+  margin: 0%;
+
+ }
+.descripcioneventos11 h4{
+  margin-top: 7vh;
+  margin: 0vh;
+  text-align: center;
+  font-size: 25px;
+  color-font:#FFF;
+}
+.descripcioneventos11 h3{
+  margin: 4%;
+  text-align: center;
+  font-size: 34vh;
+  color-font: #565656;
+}
+.descripcioneventos11 p {
+  font-size: 12vh;
+  margin: 0px;
+}
+
+.descripcioneventos11 p a {
+  font-size: 10px;
+  color:white;
+}
+
+
+.promociones {
+    background-color: rgba(17,25,45,0.65);
+    position: absolute;
+    width: 31%;
+    height: 27%;
+    bottom: 23%;
+    left: 5%;
+    z-index: 1;
+    padding: 1%;
+}
+
+.backgroundescripciones{
+  background-color: #11192D;
+  position: absolute;
+  height: auto;
+  bottom: 5%;
+  left: 5%;
+  z-index: 4;
+  padding: 2%;
+}
+
+.promociones h3{
+  font-size: 2.5vh;
+  color: white;
+  margin: 1vh;
+  text-align: justify; 
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+}
+
+
+
+.seccion-inicio{
+  height: 80vh;
+
+}
+
+
+.margincontacto placeholder{
+color: white;
+}
+.imagen-inicio{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.imagen-contacto img{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+.imagen-inicio img{
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+.imagen-inicio-bodas img{
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+.imagen-inicio-video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.fotos-servicio{
+  width: 90%;
+  height: 69vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+.fotos-hacienda{
+  width: 90%;
+  height: 69vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+
+.fotos-bodas{
+  width: 90%;
+  height: 69vh;
+  margin-left: 4%;
+  margin-right: 5%;
+  position: relative;
+}
+.fotos-servicios{
+  width: 90%;
+  height: 69vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.fotos-servicios-bodas{
+  width: 90%;
+  height: 69vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+.datos-inicio{
+  position: absolute;
+  width: 25%;
+  height: 29vh;
+  bottom: 8%;
+  right: 5%;
+  color: white;
+  z-index: 1;
+}
+
+.datos-contacto{
+  position: absolute;
+  width: 50%;
+  height: 76vh;
+  bottom: 8%;
+  right: 5%;
+  color: white;
+  z-index: 1;
+  justify-content: center;
+
+}
+
+.datos-inicio span{
+  display: block;
+  margin-bottom: 1vh;
+  font-size: 90%;
+}
+.datos-inicio h3{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 113%;
+
+}
+
+
+.optionselect{
+  border-color: white;
+  color:white;
+  background: #11192D;
+
+}
+.enviar{
+  background: #11192D;
+  color:white;
+  margin-left: 5%;
+
+}
+.seccion-hacienda{
+  height: 120vh;
+  }
+  .seccion-boda{
+    height: 100vh;
+    }
+    .seccion-servicios h1 {
+    display: inline-block;
+    font-size: 8vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #11192D;
+}
+
+
+.seccion-servicios{
+  height: 100vh;
+}
+.seccion-servicios img{
+
+}
+
+.seccion-servicios a{
+  cursor: pointer;
+}
+
+.seccion-servicios h1{
+  display: inline-block;
+  font-size: 37px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #11192D;
+}
+.seccion-hacienda h1{
+  display: inline-block;
+  font-size:37px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #11192D;
+}
+
+
+.titulo-seccion h1{
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #11192D;
+}
+
+.seccion-servicios h3{
+  display: inline-block;
+  font-size: 4vh;
+  color: white;
+  margin-left: 35%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.seccion-servicios a{
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #11192D;
+}
+.seccion-servicios{
+  height: 100vh;
+}
+
+.seccion-servicios-bodas h3{
+  display: inline-block;
+  font-size: 4vh;
+  color: #11192D;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.seccion-servicios-bodas a{
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #11192D;
+}
+.seccion-servicios-bodas{
+  height: 100vh;
+}
+.seccion-servicios-bodas img{
+
+}
+
+.seccion-servicios-bodas a{
+  cursor: pointer;
+}
+
+.seccion-servicios-bodas h1{
+  display: inline-block;
+  font-size: 35px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%
+  margin-bottom: 2%;
+  color: #11192D;
+}
+
+
+.seccion-servicios-bodas h3{
+  display: inline-block;
+  font-size: 4vh;
+  color: #11192D;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.seccion-servicios-bodas a{
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #11192D;
+}
+
+.tactos-servicios{
+  width: 90%;
+  height: 77vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+.columna-1{
+  width:30%;
+  height: 77vh;
+  display: inline-block;
+  margin-right: 2.4%;
+  position: relative;
+
+}
+.columna-1s{
+  width:30%;
+  height: 77vh;
+  display: inline-block;
+  margin-right: 2.4%;
+  position: relative;
+
+}
+
+.columna-2{
+  width:30%;
+  height: 77vh;
+  display: inline-block;
+  margin-right: 2.4%;
+  position: relative;
+
+}
+.columna-2 img{
+  width: 100%;
+  height: 77vh;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.columna2{
+  width:30%;
+  height: 77vh;
+  display: inline-block;
+  margin-right: 2.4%;
+  position: relative;
+
+}
+.columna2 img{
+  width: 100%;
+  height: 77vh;
+  object-fit: cover;
+  object-position: 50%;
+}
+.columna-3{
+  width:34%;
+  height: 77vh;
+  display: inline-block;
+  position: relative;
+
+}
+
+.columna-3-boda{
+  width:34%;
+  height: 77vh;
+  display: inline-block;
+  position: relative;
+
+}
+.fila11 img{
+  width: 100%;
+  height: 30vh;
+
+
+
+}
+
+.descripcion{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17,25,45,0.65);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descripcion h3{
+  font-size: 3vh;
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+}
+.descripcion p{
+
+  font-size: 2vh;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.descripcion h4{
+  margin-top: 7vh;
+  margin: 0vh;
+  text-align: center;
+  font-size: 25px;
+  color-font:#FFF;
+
+}
+
+.haciendaeventos:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.fila-11:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+
+.fila11:hover .descripcion{
+
+  visibility: visible;
+  opacity: 1;
+}
+
+.fila11:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.fila-21:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.fila21:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+
+.fila-23:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+.fila-23:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+.fila-23b:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+.fila-23b:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+.fila-13:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+.columna-2:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+.columna-2:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+
+.columna-4:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+.columna-7:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+.columna-6:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+.fila-51:hover .descripcion{
+  visibility: visible;
+  opacity: 1;
+}
+
+.fila-11{
+  width:100%;
+  height: 30vh;
+  position: absolute;
+  transition-duration: 2s;
+}
+
+.fila11{
+  width:100%;
+  height: 30vh;
+  position: absolute;
+  transition-duration: 2s;
+}
+.fila-11 img{
+  width: 100%;
+  height: 32vh;
+  object-fit: cover;
+
+
+}
+
+
+.fila-21{
+  width:100%;
+  height: 40vh;
+  margin-top: 7vh;
+  position: absolute;
+  bottom: 0;
+}
+.fila-21 img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.fila21{
+  width:100%;
+  height: 43vh;
+  margin-top: 7vh;
+  position: absolute;
+  bottom: 0;
+}
+.fila21 img{
+  width: 100%;
+  height: 24vh;
+  object-fit: cover;
+}
+
+.fila21-boda{
+  width:100%;
+  height: 40vh;
+  margin-top: 7vh;
+  position: absolute;
+  bottom: 0;
+}
+.fila21-boda img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.fila-13{
+  width:100%;
+  height: 33vh;
+  position: absolute;
+  bottom: 0;
+}
+.fila-13 img{
+  width: 100%;
+  height: 32vh;
+  object-fit: cover;
+
+}
+
+.fila-23{
+  width:100%;
+  height: 40vh;
+  margin-bottom: 7vh;
+  position: absolute;
+  text-align: justify;
+}
+.fila-23 h3{
+  color: rgb(17,25,45);
+  font-size: 25px;
+
+}
+.fila-23 p{
+  color: rgb(17,25,45);
+  font-size: 18px;
+}
+.fila-23 h4 {
+  color: rgb(17,25,45);
+
+
+}
+.fila-23 img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+
+}
+.fila-23-boda{
+  width:100%;
+  height: 40vh;
+  margin-bottom: 7vh;
+  position: absolute;
+  text-align: justify;
+  font-size: 20px;
+}
+.fila-23b{
+  width:100%;
+  height: 40vh;
+  margin-bottom: 7vh;
+  position: absolute;
+  text-align: justify;
+  font-size: 20px;
+}
+.fila-23b h3{
+  color: rgb(17,25,45);
+
+}
+.fila-23b p{
+  color: rgb(17,25,45);
+}
+.fila-23b img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+
+}
+.fila-23-boda{
+  width:100%;
+  height: 40vh;
+  margin-bottom: 7vh;
+  position: absolute;
+  text-align: justify;
+  font-size: 20px;
+}
+.fila-23-boda img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+
+}
+.fila-23b h3{
+  color: white;
+
+}
+.fila-23b p{
+  color: white;
+}
+.seccion-lahacienda{
+  position: relative;
+  height: 100vh;
+}
+.contenido-lahacienda{
+  width: 50%;
+  height: 80vh;
+  position: absolute;
+  left: 5%;
+  top: 10vh;
+  background-color: #11192D;
+  box-shadow: 0 15px 8px 0 rgba(255, 255, 255, 0.2), 0 15px 20px 0 rgba(255, 255, 255, 0.19);
+  z-index: 2;
+}
+.info-lahacienda{
+  width: 100%;
+}
+
+.info-lahacienda h1{
+  font-size: 8vh;
+  padding-left: 2%;
+}
+.info-lahacienda h3{
+  font-size: 4vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.info-lahacienda p{
+  font-size: 3vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.foto-lahacienda{
+  width:100%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.foto-lahacienda img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+
+}
+.backgroundcontacto{
+  background-image: url("fotos/contacto/BODA.jpg");
+
+}
+.seccion-video{
+  background-color: #FAFAFA;
+  height: 90vh;
+  position: relative;
+}
+.seccion-video h1{
+  display: inline-block;
+  font-size: 37px;
+  margin-left: 5%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: #11192D;
+}
+.video{
+  width: 80%;
+  margin-top: 4vh;
+  height: 70vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: absolute;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.seccion-puntos{
+  height: 90vh;
+}
+.seccion-puntos img{
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.seccion-puntos h1 {
+    display: inline-block;
+    font-size: 37px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #11192D;
+}
+
+.columna-4{
+  width:41.6%;
+  height: 77vh;
+  display: inline-block;
+  margin-right: 2.4%;
+  position: absolute;
+  left: 0;
+
+
+}
+.columna-4 img{
+  width: 100%;
+  height: 77vh;
+  object-fit: cover;
+}
+.columna-5{
+  width:55%;
+  height: 77vh;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+
+}
+
+.columna-6{
+  width: 50%;
+  height: 50vh;
+  display: inline-block;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.columna-6 img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+.columna-7{
+  width: 43.4%;
+  height: 50vh;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.columna-7 img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+
+.fila-51{
+  width:100%;
+  height: 20vh;
+  position: absolute;
+  top: 0;
+}
+.fila-51 img{
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  object-position: 0% 80%;
+}
+.fila-4{
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+  object-position: 0% 80%;
+}
+
+.fila-52{
+  width:100%;
+  height: 50vh;
+  margin-top: 27vh;
+}
+
+.seccion-formulario{
+  position: relative;
+  background-color: #11192D;
+  height: 100vh;
+}
+.seccion-formulario img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.imagen-formulario{
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  z-index: 1;
+}
+.formulario{
+  width: 25%;
+  height: 65vh;
+
+  left: 5%;
+  background-color: #11192D;
+  border-radius: 4px;
+  margin-left: 5%;
+  border: 7%;
+  padding: 3%;
+  top: 15vh;
+  position: absolute;
+  padding-left: 3%;
+  padding-top: 8vh;
+  box-shadow: 0 15px 8px 0 rgba(255, 255, 255, 0.2), 0 15px 20px 0 rgba(255, 255, 255, 0.19);
+  z-index: 2;
+
+}
+input::placeholder {
+  color: white;
+  font-family: "Merriweather-Light";
+  font-size: 17px;
+
+}
+textarea::placeholder {
+  color: white;
+  font-family: "Merriweather-Light";
+  font-size: 17px;
+
+}
+.formulario label{
+  display: inline-block;
+  color: white;
+  width: 100%;;
+}
+.formulario input{
+  display: block;
+  margin-bottom: 1vh;
+  background-color: transparent;
+  padding: 0.5%;
+  width: 80%;
+  border: 1px solid white;
+  color: white;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.placeholder{
+  margin: 5%;
+}
+
+.placeholdertext{
+  margin-left:  5%;
+}
+.formulario textarea{
+  display: block;
+  margin-bottom: 2vh;
+  resize: none;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 80%;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  margin-left: 5%;
+  margin-top: 3vh;
+
+
+}
+.seccion-final{
+  position: relative;
+  height: 7vh;
+}
+.iconos-marcas{
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  top: 0;
+}
+.iconos-grid{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 7%;
+  height: 45vh;
+  text-align: center;
+}
+.icono{
+  display: inline-block;
+  width: 12%;
+  height: 20vh;
+  margin-right: 1.1%;
+  margin-bottom: 2vh;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  height: 1vh;
+  bottom: 0;
+}
+.info-footer{
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 2%;
+  width: 88%;
+  border-top: 1px solid #11192D;
+  position: relative;
+}
+.info-footer-contacto{
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 2%;
+  width: 88%;
+  border-top: 1px solid #11192D;
+  position: relative;
+}
+.info-footer-home{
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 0%;
+  width: 88%;
+  border-top: 1px solid #11192D;
+  position: relative;
+}
+.logo-footer{
+  margin-top: 3vh;
+  width: 10%;
+  height: 15vh;
+  display: inline-block;
+}
+.logo-footer img{
+  width: 85%;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.redes-footer{
+  width: 30%;
+  margin-top: 3vh;
+  height: 12vh;
+  display: inline-block;
+  position: absolute;
+  padding-top: 3vh;
+}
+.redes-footer span{
+  display: block;
+  font-size: 3vh;
+  margin-left: 10%;
+  color: #11192D;
+}
+.redes-footer a{
+  display: inline-block;
+  font-size: 3vh;
+  margin-left: 10%;
+  color: #11192D;
+}
+.contacto-footer{
+  width: 42%;
+  height: 12vh;
+  margin-top: 4vh;
+  display: inline-block;
+  padding-left: 5%;
+  position: absolute;
+  padding-top: 3vh;
+  right: 0;
+}
+.contacto-footer span{
+  display: block;
+  font-size: 3vh;
+  margin-bottom: 0.5vh;
+  color: #11192D;
+}
+.fa-2x{
+  color: #11192D;
+  margin-right: 5%;
+}
+
+.fa-lg{
+  color: #11192D;
+  margin-right: 5%;
+}
+.white.fa-lg{
+  color: white;
+  margin-right: 5%;
+}
+
+.white.fa-2x{
+  color: white;
+  margin-right: 5%;
+}
+.flotante-menu{
+  position: fixed;
+  bottom: 90%;
+  width: 0%;
+  height: 8%;
+  background-color: rgb(17,25,45,0.9);
+  border-radius: 0px;
+  width: 100%;
+  text-align: left;
+  z-index: 100;
+}
+.flotante{
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  width: 5%;
+  height: 8%;
+  margin-top: 20px;
+  background-color: #11192D;
+  border-radius: 50px;
+  width: 10%;
+  text-align: center;
+  z-index: 100;
+}
+.flotante span{
+  width: 100%;
+  color: white;
+  font-weight:bold;
+  text-decoration: none;
+  font-size: 4vh;
+  line-height: 45px;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 720px){
+  .seccion-inicio{
+  height: 80vh;
+  position: relative;
+  }
+  .fila21 img{
+  width: 100%;
+  height: 42vh;
+  object-fit: cover;
+}
+  .seccion-hacienda h1 {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #11192D;
+}
+.fila-23{
+  width:100%;
+  height: 40vh;
+  margin-bottom: 7vh;
+  position: absolute;
+  text-align: justify;
+ 
+}
+
+
+.fila-23 h3 {
+    color: rgb(17,25,45);
+    font-size: 25px;
+}
+.seccion-video h1 {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #11192D;
+}
+  .promociones{
+    width: 94%;
+    position: relative;
+    left: 0%;
+    top:12%;
+    height: auto;
+    text-align: center;
+    padding: 3%;
+  }
+
+  .promociones h3{
+  height: auto;
+  font-size: 2vh;
+  text-align: justify;
+
+  }
+  .datos-inicio{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    bottom: 25%;
+    right: 4%;
+    color: white;
+    font-size: 80%;
+
+  }
+  .seccion-hacienda{
+    height: 316vh;
+  }
+
+  .seccion-hacienda p{
+    font-size: 65%;
+}
+  .fotos-servicios{
+    height: auto;
+    margin-bottom: 5%;
+  }
+  .columna-3 p{
+    font-size: 2.3vh;
+}
+  .columna-1{
+    width: 100%;
+ 
+  }
+  .columna-1s{
+    width: 100%;
+  }
+  .columna-2{
+    width: 100%;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+  }
+  .columna-3{
+    width: 100%;
+    margin-bottom: 7vh;
+    
+  }
+  .columna-4{
+    width: 100%;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+
+  .columna-5{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .columna-6{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .columna-7{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .seccion-video {
+      background-color: #FAFAFA;
+      height: 95vh;
+      position: relative;
+  }
+.seccion-puntos h1 {
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 14%;
+  margin-bottom: 1%;
+  color: #11192D;
+}
+  .seccion-puntos {
+      height: 237vh;
+  }
+  .seccion-servicios {
+      height: 260vh;
+  }
+  .seccion-final {
+      position: relative;
+      height: 24vh;
+  }
+  .iconos-marcas {
+      position: absolute;
+      width: 100%;
+      height: 23vh;
+      top: 0;
+  }
+  .iconos-grid {
+      margin: 8%;
+      width: 90%;
+      height: 24vh;
+  }
+  .icono {
+      display: inline-block;
+      width: 12%;
+      height: 9vh;
+      margin-right: 1.1%;
+      margin-bottom: 2vh;
+  }
+  .footer {
+      position: relative;
+      height: auto;
+
+  }
+  .info-footer {
+      margin-left: 6%;
+      margin-right: 6%;
+      margin-top: 8vh;
+      width: 88%;
+      border-top: 1px solid #11192D;
+      position: relative;
+  }
+  .logo-footer {
+      margin-top: 3vh;
+      width: 46%;
+      height: 15vh;
+      display: inline-block;
+  }
+  .logo-footer img {
+      width: 70%;
+      margin-top: 15%;
+      margin-left: 10%;
+  }
+  .redes-footer {
+      display: inline-block;
+      position: relative;
+      width: 48%;
+      height: auto;
+      text-align: center;
+  }
+  .redes-footer span {
+      padding: 0;
+      margin: 0;
+      display: block;
+      font-size: 3vh;
+  }
+  .contacto-footer {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 50px;
+      font-size: 12px !important;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 380px) {
+  .seccion-inicio{
+  height: 80vh;
+  position: relative;
+  }
+  .promociones{
+    width: 94%;
+    position: relative;
+    left: 0%;
+    top:12%;
+    height: auto;
+    text-align: center;
+    padding: 3%;
+  }
+
+  .promociones h3{
+  height: auto;
+  font-size: 2vh;
+  text-align: justify;
+
+  }
+  .datos-inicio{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    bottom: 25%;
+    right: 4%;
+    color: white;
+    font-size: 80%;
+
+  }
+  .seccion-hacienda{
+    height: 397vh;
+  }
+  .seccion-hacienda p {
+    font-size: 1.5vh;
+}
+  .seccion-hacienda p{
+    font-size:  74%;
+  }
+  .fotos-servicios{
+    height: auto;
+    margin-bottom: 5%;
+  }
+  .columna-1{
+    width: 100%;
+ 
+  }
+  .columna-1s{
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .fila-23 {
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 7vh;
+    position: absolute;
+    text-align: justify;
+  
+}
+  .columna-2{
+    width: 100%;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+  }
+  .columna-3{
+    width: 100%;
+    margin-bottom: 7vh;
+   
+  }
+  .columna-4{
+    width: 100%;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+
+  .columna-5{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .columna-6{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .columna-7{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .seccion-video {
+      background-color: #FAFAFA;
+      height: 94vh;
+      position: relative;
+  }
+  .seccion-puntos {
+      height: 235vh;
+  }
+  .seccion-servicios {
+      height: 260vh;
+  }
+  .descripcion h3 {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+  .seccion-final {
+      position: relative;
+      height: 24vh;
+  }
+  .iconos-marcas {
+      position: absolute;
+      width: 100%;
+      height: 23vh;
+      top: 0;
+  }
+  .iconos-grid {
+      margin: 8%;
+      width: 90%;
+      height: 24vh;
+  }
+  .icono {
+      display: inline-block;
+      width: 12%;
+      height: 9vh;
+      margin-right: 1.1%;
+      margin-bottom: 2vh;
+  }
+  .footer {
+      position: relative;
+      height: auto;
+
+  }
+  .info-footer {
+      margin-left: 6%;
+      margin-right: 6%;
+      margin-top: 8vh;
+      width: 88%;
+      border-top: 1px solid #11192D;
+      position: relative;
+  }
+  .logo-footer {
+      margin-top: 3vh;
+      width: 46%;
+      height: 15vh;
+      display: inline-block;
+  }
+  .logo-footer img {
+      width: 70%;
+      margin-top: 15%;
+      margin-left: 10%;
+  }
+  .redes-footer {
+      display: inline-block;
+      position: relative;
+      width: 48%;
+      height: auto;
+      text-align: center;
+      margin-top: 11%
+  }
+  .redes-footer span {
+      padding: 0;
+      margin: 0;
+      display: block;
+      font-size: 3vh;
+  }
+  .contacto-footer {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 50px;
+      font-size: 12px !important;
+  }
+  /* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+
+.seccion-inicio{
+height: 80vh;
+position: relative;
+}
+.promociones{
+  width: 94%;
+  position: relative;
+  left: 0%;
+  top:12%;
+  height: auto;
+  text-align: center;
+  padding: 3%;
+}
+
+.promociones h3{
+height: auto;
+font-size: 2vh;
+text-align: justify;
+
+}
+.datos-inicio{
+  width: 90%;
+  height: auto;
+  position: absolute;
+  bottom: 25%;
+  right: 4%;
+  color: white;
+  font-size: 80%;
+
+}
+.seccion-hacienda{
+  height: 240vh;
+}
+.seccion-hacienda p{
+  font-size: 2.5vh;
+}
+.fotos-servicios{
+  height: auto;
+  margin-bottom: 5%;
+}
+.columna-1{
+  width: 100%;
+}
+.columna-1s{
+  width: 100%;
+}
+.columna-2{
+  width: 100%;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+.columna-3{
+  width: 100%;
+  margin-bottom: 7vh;
+}
+.columna-4{
+  width: 100%;
+  position: relative;
+  margin-bottom: 7vh;
+}
+
+.columna-5{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.columna-6{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.columna-7{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.seccion-video {
+    background-color: #FAFAFA;
+    height: 95vh;
+    position: relative;
+}
+.seccion-puntos {
+    height: 237vh;
+}
+.seccion-servicios {
+    height: 260vh;
+}
+.seccion-final {
+    position: relative;
+    height: 24vh;
+}
+.iconos-marcas {
+    position: absolute;
+    width: 100%;
+    height: 23vh;
+    top: 0;
+}
+.iconos-grid {
+    margin: 8%;
+    width: 90%;
+    height: 24vh;
+}
+.icono {
+    display: inline-block;
+    width: 12%;
+    height: 9vh;
+    margin-right: 1.1%;
+    margin-bottom: 2vh;
+}
+.footer {
+    position: relative;
+    height: auto;
+
+}
+.info-footer {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 8vh;
+    width: 88%;
+    border-top: 1px solid #11192D;
+    position: relative;
+}
+.logo-footer {
+    margin-top: 3vh;
+    width: 46%;
+    height: 15vh;
+    display: inline-block;
+}
+.logo-footer img {
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.redes-footer {
+    display: inline-block;
+    position: relative;
+    width: 48%;
+    height: auto;
+    text-align: center;
+}
+.redes-footer span {
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-size: 3vh;
+}
+.contacto-footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 12px !important;
+}
+
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+
+
+.seccion-inicio{
+height: 80vh;
+position: relative;
+}
+.promociones{
+  width: 94%;
+  position: relative;
+  left: 0%;
+  top:12%;
+  height: auto;
+  text-align: center;
+  padding: 3%;
+
+}
+
+
+.promociones h3{
+height: auto;
+font-size: 4vh;
+text-align: justify;
+
+
+}
+.datos-inicio{
+  width: 90%;
+  height: auto;
+  position: absolute;
+  bottom: 25%;
+  right: 4%;
+  color: white;
+  font-size: 100%;
+}
+.seccion-hacienda{
+  height: 208vh;
+}
+.seccion-hacienda p{
+  font-size: 2.5vh;
+}
+.fotos-servicios{
+  height: auto;
+  margin-bottom: 5%;
+}
+.columna-1{
+  width: 100%;
+}
+.columna-1s{
+  width: 100%;
+}
+.columna-2{
+  width: 100%;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+.columna-3{
+  width: 100%;
+  margin-bottom: 7vh;
+}
+.columna-4{
+  width: 100%;
+  position: relative;
+  margin-bottom: 7vh;
+}
+
+.columna-5{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.columna-6{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.columna-7{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.seccion-video {
+    background-color: #FAFAFA;
+    height: 94vh;
+    position: relative;
+}
+.seccion-puntos {
+    height: 225vh;
+}
+.seccion-servicios {
+    height: 260vh;
+}
+.descripcion h3 {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 5vh;
+}
+.seccion-final {
+    position: relative;
+    height: 24vh;
+}
+.iconos-marcas {
+    position: absolute;
+    width: 100%;
+    height: 23vh;
+    top: 0;
+}
+.iconos-grid {
+    margin: 8%;
+    width: 90%;
+    height: 24vh;
+}
+.icono {
+    display: inline-block;
+    width: 12%;
+    height: 9vh;
+    margin-right: 1.1%;
+    margin-bottom: 2vh;
+}
+.footer {
+    position: relative;
+    height: 70vh;
+
+}
+.info-footer {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 8vh;
+    width: 88%;
+    border-top: 1px solid #11192D;
+    position: relative;
+}
+.logo-footer {
+    margin-top: 3vh;
+    width: 46%;
+    height: 15vh;
+    display: inline-block;
+}
+.logo-footer img {
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.redes-footer {
+    display: inline-block;
+    position: relative;
+    width: 48%;
+    height: auto;
+    text-align: center;
+}
+.redes-footer span {
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-size: 3vh;
+}
+.contacto-footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 12px !important;
+}
+
+}
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+
+  .seccion-inicio{
+  height: 80vh;
+  position: relative;
+  }
+  .promociones{
+    width: 94%;
+    position: relative;
+    left: 0%;
+    top:12%;
+    height: auto;
+    text-align: center;
+    padding: 3%;
+
+  }
+
+  .promociones h3{
+  height: auto;
+  font-size: 4vh;
+  text-align: justify;
+
+
+  }
+  .datos-inicio{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    bottom: 25%;
+    right: 4%;
+    color: white;
+    font-size: 100%;
+  }
+  .seccion-hacienda{
+    height: 208vh;
+  }
+  .seccion-hacienda p{
+    font-size: 2.5vh;
+  }
+  .fotos-servicios{
+    height: auto;
+    margin-bottom: 5%;
+  }
+  .columna-1{
+    width: 100%;
+  }
+  .columna-1s{
+  width: 100%;
+}
+  .columna-2{
+    width: 100%;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+  }
+  .columna-3{
+    width: 100%;
+    margin-bottom: 7vh;
+  }
+  .columna-4{
+    width: 100%;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+
+  .columna-5{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .columna-6{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .columna-7{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .seccion-video {
+      background-color: #FAFAFA;
+      height: 82vh;
+      position: relative;
+  }
+  .seccion-puntos {
+      height: 225vh;
+  }
+  .seccion-servicios {
+      height: 260vh;
+  }
+  .descripcion h3 {
+      font-size: 3vh;
+      text-align: center;
+      margin-bottom: 1vh;
+      margin-top: 5vh;
+  }
+  .seccion-final {
+      position: relative;
+      height: 24vh;
+  }
+  .iconos-marcas {
+      position: absolute;
+      width: 100%;
+      height: 23vh;
+      top: 0;
+  }
+  .iconos-grid {
+      margin: 8%;
+      width: 90%;
+      height: 24vh;
+  }
+  .icono {
+      display: inline-block;
+      width: 12%;
+      height: 9vh;
+      margin-right: 1.1%;
+      margin-bottom: 2vh;
+  }
+  .footer {
+      position: relative;
+      height: 70vh;
+
+  }
+  .info-footer {
+      margin-left: 6%;
+      margin-right: 6%;
+      margin-top: 8vh;
+      width: 88%;
+      border-top: 1px solid #11192D;
+      position: relative;
+  }
+  .logo-footer {
+      margin-top: 3vh;
+      width: 46%;
+      height: 15vh;
+      display: inline-block;
+  }
+  .logo-footer img {
+      width: 70%;
+      margin-top: 15%;
+      margin-left: 10%;
+  }
+  .redes-footer {
+      display: inline-block;
+      position: relative;
+      width: 48%;
+      height: auto;
+      text-align: center;
+  }
+  .redes-footer span {
+      padding: 0;
+      margin: 0;
+      display: block;
+      font-size: 3vh;
+  }
+  .contacto-footer {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 50px;
+      font-size: 12px !important;
+  }
+
+}
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+  .seccion-inicio{
+  height: 80vh;
+  position: relative;
+  }
+  .promociones{
+    width: 94%;
+    position: relative;
+    left: 0%;
+    top:12%;
+    height: auto;
+    text-align: center;
+    padding: 3%;
+
+  }
+
+  .promociones h3{
+  height: auto;
+  font-size: 4vh;
+  text-align: justify;
+
+
+  }
+  .datos-inicio{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    bottom: 25%;
+    right: 4%;
+    color: white;
+    font-size: 100%;
+  }
+  .seccion-hacienda{
+    height: 208vh;
+  }
+  .seccion-hacienda p{
+    font-size: 2.5vh;
+  }
+  .fotos-servicios{
+    height: auto;
+    margin-bottom: 5%;
+  }
+  .columna-1{
+    width: 100%;
+  }
+  .columna-1s{
+  width: 100%;
+}
+  .columna-2{
+    width: 100%;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+  }
+  .columna-3{
+    width: 100%;
+    margin-bottom: 7vh;
+  }
+  .columna-4{
+    width: 100%;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+
+  .columna-5{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .columna-6{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .columna-7{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 7vh;
+  }
+  .seccion-video {
+      background-color: #FAFAFA;
+      height: 82vh;
+      position: relative;
+  }
+  .seccion-puntos {
+      height: 225vh;
+  }
+  .seccion-servicios {
+      height: 260vh;
+  }
+  .descripcion h3 {
+      font-size: 3vh;
+      text-align: center;
+      margin-bottom: 1vh;
+      margin-top: 5vh;
+  }
+  .seccion-final {
+      position: relative;
+      height: 24vh;
+  }
+  .iconos-marcas {
+      position: absolute;
+      width: 100%;
+      height: 23vh;
+      top: 0;
+  }
+  .iconos-grid {
+      margin: 8%;
+      width: 90%;
+      height: 24vh;
+  }
+  .icono {
+      display: inline-block;
+      width: 12%;
+      height: 9vh;
+      margin-right: 1.1%;
+      margin-bottom: 2vh;
+  }
+  .footer {
+      position: relative;
+      height: 70vh;
+
+  }
+  .info-footer {
+      margin-left: 6%;
+      margin-right: 6%;
+      margin-top: 8vh;
+      width: 88%;
+      border-top: 1px solid #11192D;
+      position: relative;
+  }
+  .logo-footer {
+      margin-top: 3vh;
+      width: 46%;
+      height: 15vh;
+      display: inline-block;
+  }
+  .logo-footer img {
+      width: 70%;
+      margin-top: 15%;
+      margin-left: 10%;
+  }
+  .redes-footer {
+      display: inline-block;
+      position: relative;
+      width: 48%;
+      height: auto;
+      text-align: center;
+  }
+  .redes-footer span {
+      padding: 0;
+      margin: 0;
+      display: block;
+      font-size: 3vh;
+  }
+  .contacto-footer {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 50px;
+      font-size: 12px !important;
+  }
+
+
+
+}
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+
+/* Styles */
+.seccion-inicio{
+height: 80vh;
+position: relative;
+}
+.promociones{
+  width: 94%;
+  position: relative;
+  left: 0%;
+  top:18%;
+  height: auto;
+  text-align: center;
+  padding: 3%;
+
+}
+
+.promociones h3{
+height: auto;
+font-size: 4vh;
+text-align: justify;
+
+
+}
+.datos-inicio{
+  width: 50%;
+  height: auto;
+  position: absolute;
+  bottom: 13%;
+  right: 4%;
+  color: white;
+  font-size: 100%;
+}
+.seccion-hacienda{
+  height:200vh;
+}
+.seccion-hacienda h1 {
+    display: inline-block;
+    font-size: 35px;
+    margin-left: 43%;
+    margin-right: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #11192D;
+}
+.promociones {
+    width: 31%;
+    margin-left: 4%;
+    position: relative;
+    left: 0%;
+    top: 12%;
+    height: auto;
+    text-align: center;
+    padding: 3%;
+}
+.promociones h3 {
+    height: auto;
+    margin-left: 6%;
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.seccion-hacienda p{
+  font-size: 2.5vh;
+}
+.fotos-servicios{
+  height: auto;
+  margin-bottom: 5%;
+}
+.columna-1{
+  width: 100%;
+}
+.columna-1s{
+  width: 100%;
+}
+.fila11 {
+    width: 46%;
+    height: 30vh;
+    position: absolute;
+    transition-duration: 2s;
+}
+.fila11 img {
+    width: 100%;
+    height: 32vh;
+
+}
+.columna-2{
+  width: 100%;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+.columna-3{
+  width: 100%;
+  margin-bottom: 7vh;
+}
+.columna-4{
+  width: 100%;
+  position: relative;
+  margin-bottom: 7vh;
+}
+
+.columna-5{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.columna-6{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.columna-7{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 7vh;
+}
+.seccion-video {
+    background-color: #FAFAFA;
+    height: 82vh;
+    position: relative;
+}
+.seccion-puntos {
+    height: 224vh;
+}
+.seccion-servicios {
+    height: 250vh;
+}
+.descripcion h3 {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 5vh;
+}
+.seccion-final {
+    position: relative;
+    height: 24vh;
+}
+.iconos-marcas {
+    position: absolute;
+    width: 100%;
+    height: 23vh;
+    top: 0;
+}
+.iconos-grid {
+    margin: 8%;
+    width: 90%;
+    height: 24vh;
+}
+.icono {
+    display: inline-block;
+    width: 12%;
+    height: 9vh;
+    margin-right: 1.1%;
+    margin-bottom: 2vh;
+}
+.footer {
+    position: relative;
+    height: 70vh;
+
+}
+.info-footer {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 8vh;
+    width: 88%;
+    border-top: 1px solid #11192D;
+    position: relative;
+}
+.logo-footer {
+    margin-top: 3vh;
+    width: 46%;
+    height: 15vh;
+    display: inline-block;
+}
+.logo-footer img {
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.redes-footer {
+    display: inline-block;
+    position: relative;
+    width: 48%;
+    height: auto;
+    text-align: center;
+}
+.redes-footer span {
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-size: 3vh;
+}
+.contacto-footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 12px !important;
+}
+}
+}

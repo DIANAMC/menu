@@ -1,0 +1,52 @@
+.menu{
+	background-color: #ccc;
+	overflow: hidden;
+	padding: 1%;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: lighter; 
+
+
+}
+
+.menu li{ 
+	float: left;
+	width: 49%;
+	color: #002F3D;
+
+	list-style: none;
+	height: 30px;
+	overflow: hidden;
+	transition: 2s;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+
+
+}
+.menu li a{
+	display: block;
+	width: 100%;
+	height: 30px;
+	text-decoration: none;
+	overflow: hidden; 
+	text-align: right;
+	color: #002F3D;
+}
+
+.menu li ul li{
+	display: inline;
+	color: #002F3D;
+	width: 100%;
+
+}
+.menu li ul li a{
+
+}
+
+.menu > li:hover{
+	height: auto;
+}
+.menu img{
+	width: 4%;
+}
