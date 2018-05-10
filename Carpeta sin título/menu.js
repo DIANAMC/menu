@@ -14,7 +14,7 @@ function main(){
 		} else {
 			contador = 1;
 			$('nav').animate({
-				top: '-100%'
+				top: '-105%'
 			});
 		}
  
